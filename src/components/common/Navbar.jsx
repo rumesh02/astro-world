@@ -47,10 +47,12 @@ function Navbar() {
         {/* Brand */}
         <Link to="/" className="group flex items-center gap-3">
           <span className="relative flex h-11 w-11 items-center justify-center">
-            <span className="absolute inset-0 rounded-2xl bg-gradient-to-br from-pitch-400 to-pitch-600 opacity-80 blur-md transition-opacity duration-300 group-hover:opacity-100 animate-glow-pulse" />
-            <span className="relative flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-pitch-400 to-pitch-700 ring-1 ring-white/20">
-              <CricketBallIcon className="h-6 w-6 text-night-950" />
-            </span>
+            <span className="absolute inset-0 rounded-full bg-gradient-to-br from-pitch-400 to-pitch-600 opacity-70 blur-md transition-opacity duration-300 group-hover:opacity-100 animate-glow-pulse" />
+            <img
+              src="/logoNavBar.png"
+              alt="AstroWorld logo"
+              className="relative h-11 w-11 rounded-full object-cover ring-1 ring-white/20"
+            />
           </span>
           <span className="flex flex-col leading-none">
             <span className="text-lg font-extrabold tracking-tight text-white">
