@@ -128,12 +128,12 @@ function Footer() {
             <ul className="mt-5 space-y-4 text-sm text-white/60">
               <li className="flex items-start gap-3">
                 <PinIcon className="mt-0.5 h-4 w-4 shrink-0 text-pitch-400" />
-                <span>123 Boundary Lane, Colombo, Sri Lanka</span>
+                <span>553 A, De Soysa Rd, Moratuwa, Colombo, Sri Lanka</span>
               </li>
               <li className="flex items-start gap-3">
                 <PhoneIcon className="mt-0.5 h-4 w-4 shrink-0 text-pitch-400" />
-                <a href="tel:+94110000000" className="hover:text-white">
-                  +94 11 000 0000
+                <a href="tel:+94774656009" className="hover:text-white">
+                  077 465 6009
                 </a>
               </li>
               <li className="flex items-start gap-3">
